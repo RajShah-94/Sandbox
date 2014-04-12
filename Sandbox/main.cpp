@@ -8,8 +8,10 @@
 using namespace std;
 
 int main() {
-	do {
-		cin << a << endl;
+	int a;
+	int b;
+	while (b == 0) {
+		cin >> "Enter a number" >> a >> endl;
+		b = a%2;
 	}
-	while(int a%2 = 0);
 }
