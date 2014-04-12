@@ -11,7 +11,13 @@ int main() {
 	int a;
 	int b;
 	while (b == 0) {
-		cin >> "Enter a number" >> a >> endl;
+		cin >> a;
 		b = a%2;
+		if (b == 0 ) {
+			cout << a << " is even" << endl;
+		}
+		else {
+			cout << a << " is odd" << endl;
+		}
 	}
 }
