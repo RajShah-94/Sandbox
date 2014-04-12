@@ -1,3 +1,4 @@
+
 /*
  * main.cpp
  *
@@ -10,14 +11,20 @@ using namespace std;
 int main() {
 	int a;
 	int b;
-	while (b == 0) {
+	int c;
+	while ( a != 0) {
 		cin >> a;
 		b = a%2;
-		if (b == 0 ) {
+
+		if (a==0) {
+			cout << a << " is neither even nor odd" << endl;
+		}
+		else if (b == 0 ) {
 			cout << a << " is even" << endl;
 		}
 		else {
 			cout << a << " is odd" << endl;
 		}
 	}
+	cout << "Project complete! You have failed to make the next round." << endl;
 }
